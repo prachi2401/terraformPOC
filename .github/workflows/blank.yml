@@ -23,7 +23,10 @@ jobs:
     steps:
        - name: Terraform init
          id: init
-         run: terraform init
+         with:
+          
+          tf_actions_subcommand: 'init'
+          tf_actions_working_dir: "."
          
        - name: Terraform validate
          id: validate
