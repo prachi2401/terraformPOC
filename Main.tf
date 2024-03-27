@@ -9,7 +9,7 @@ terraform {
       resource_group_name  = "Gaurav_RG"
       storage_account_name = "storage132"
       container_name       = "tfstate"
-      key                  = "terraform.tfstate"
+      key                  = "mykNZ6ip6Lf/xQfzbri13JRVCXd3zLLCpC5LrKrcbY1jeLOtSgjEAPeYjy8hvcIPZnYN3WXDuWLH+ASt1MEehw=="
   }
 
 }
