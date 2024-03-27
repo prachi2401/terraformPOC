@@ -38,6 +38,9 @@ jobs:
       run: terraform init
 
     - name: Terraform plan
+      env:
+       ARM_CLIENT_SECRET: ${{ secrets.AZURE_AD_CLIENT_SECRET }}
+       
       run: terraform plan 
 
     # - name: Terraform apply
