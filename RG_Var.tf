@@ -1,6 +1,6 @@
 variable "resource_group_name"{
     type = string
-    default = "Rg_terraform"
+    default = "Gaurav_RG"
 }
 variable "rg_location"{
   type = string
