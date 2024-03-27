@@ -31,10 +31,7 @@ jobs:
 
       - name: Terraform init
         id: init
-        run: |
-          set -a 
-          source ../.env.backend
-          terraform init
+        run: terraform init
 
       - name: Terraform validate
         id: validate
